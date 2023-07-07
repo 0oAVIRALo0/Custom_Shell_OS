@@ -3,31 +3,31 @@
 SHELL:
   INTERNAL COMMANDS:
     Cd - changes the current working directory
-      -L:  symbolic components are handled in the directory before dot-dot (“..”) components. 
-      -P:  symbolic components are handled in the directory after dot-dot (“..”) components.
+      L:  symbolic components are handled in the directory before dot-dot (“..”) components. 
+      P:  symbolic components are handled in the directory after dot-dot (“..”) components.
     echo - writes the arguments to the standard output
-      -n: trailing newline character is not printed
-      -help: displays the help message and usage
+      n: trailing newline character is not printed
+      help: displays the help message and usage
     pwd - prints the name of the current working directory
-      -L: symbolic links are not avoided
-      -P: symbolic are avoided
+      L: symbolic links are not avoided
+      P: symbolic are avoided
 
   EXTERNAL COMMANDS:
     cat - read the contents of the file and prints its contents on the standard output
-      -n: number all output lines 
-      -E: display the $ sign at the end of each line
+      n: number all output lines 
+      E: display the $ sign at the end of each line
     date - prints the system’s date and time
-      -u: prints Coordinated Universal Time (UTC)
-      -R: prints date and time in RFC 5322 format
+      u: prints Coordinated Universal Time (UTC)
+      R: prints date and time in RFC 5322 format
     ls - list the contents of the directory
-      -a: does not ignore system files (starting from “.”)
-      -A: ignores system files (starting from “.”)
+      a: does not ignore system files (starting from “.”)
+      A: ignores system files (starting from “.”)
     mkdir - this command makes directories
-      -v: prints a message for each created directory
-      -m: sets the file mode
+      v: prints a message for each created directory
+      m: sets the file mode
     rm - removes files
-      -i: prompt before every file removal 
-      -v: explains what is being done and which file is being removed
+      i: prompt before every file removal 
+      v: explains what is being done and which file is being removed
 
   EDGE CASES HANDLED: 
     cd:
