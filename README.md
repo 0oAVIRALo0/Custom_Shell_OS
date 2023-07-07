@@ -1,6 +1,7 @@
 # Custom_Shell_OS
 
 SHELL:
+  
   INTERNAL COMMANDS:
     Cd - changes the current working directory
       L:  symbolic components are handled in the directory before dot-dot (“..”) components. 
