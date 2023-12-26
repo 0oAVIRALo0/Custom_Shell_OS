@@ -1,4 +1,4 @@
-# Custom_Shell_OS
+# Msh_Custom_Linux_Shell
 
 SHELL:
   
@@ -63,8 +63,6 @@ SHELL:
       Cannot remove file
       Missing operand
 
-ASSUMPTIONS:
-  One command at a time in shell for easy use
 
 THREADING:
   Type &t after command name (cat &t -n [file name])
